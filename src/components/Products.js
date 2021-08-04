@@ -1,7 +1,5 @@
 import Product from './Product';
-// import SingleProduct from '../pages/SingleProduct';
 import { useState, useEffect} from 'react';
-// import { CartContext } from '../pages/CartContext';
 
 const Products = () => {
 
@@ -24,7 +22,7 @@ const Products = () => {
                        key={product.name} 
                        id={product.id}
                        product={product} 
-                       />
+                       />   
                     )}             
             </div>
         </div>
